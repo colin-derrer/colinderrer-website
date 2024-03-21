@@ -6,28 +6,35 @@ import { projects } from "@/data/projectData";
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <header className="py-[1vh] my-[5vh] flex flex-col sm:flex-row justify-between items-center relative">
-        <div className="my-auto">
-          <p>hello, I&apos;m</p>
-          <h1 className="tracking-tighter text-7xl">COLIN DERRER</h1>
-          <p className="text-primary">
-            an Orlando-based full stack web developer.
-          </p>
+      <header className="py-[15vh] flex flex-col sm:flex-row justify-between items-center relative">
+        <div className="">
+          <div className="my-auto">
+            <p>hello, I&apos;m</p>
+            <h1 className="tracking-tighter text-7xl">COLIN DERRER</h1>
+            <p className="text-primary">
+              an Orlando-based full stack web developer.
+            </p>
+          </div>
+          <div className="max-w-[60ch] mt-4 space-y-2">
+            <p className="">
+              I love working with digital technologies and learning to push my
+              creative and technical limits, especially with tools or concepts
+              I&apos;m not yet familiar with.
+            </p>
+            <p className="">
+              I&apos;m currently working on expanding my skills surrounding 3D
+              scenes and learning more about systems design.
+            </p>
+            <p className="mt-2 text-xs text-muted-foreground">
+              This website is currently being redesigned. Please check back in a
+              day or two!
+            </p>
+          </div>
         </div>
-        <div className="max-w-[60ch] mt-auto absolute bottom-0 text-center sm:text-left">
-          <p className="">
-            I love working with interactive technologies to help make I love
-            working with interactive technologies to help make I love working
-            with interactive technologies to help make
+        <div className="py-8">
+          <p>
+            This is where a 3D scene will be soon. Sorry it isn&apos;t here yet!
           </p>
-
-          <p className="mt-2 text-xs text-muted-foreground">
-            This website is currently being redesigned. Please check back in a
-            day or two!
-          </p>
-        </div>
-        <div className="relative">
-          <div className=" bg-primary size-96" />
         </div>
       </header>
       <section className="flex flex-col gap-2 pt-16">
@@ -64,7 +71,6 @@ export default function Home() {
             <DigitalThings title="SLEEK, MODERN SAAS SITES" />
             <DigitalThings title="MINIMALIST STUDIO SITES" />
             <DigitalThings title="PERSONAL SITES" />
-            <DigitalThings title="DESKTOP & MOBILE UI" />
             <DigitalThings title="DESKTOP & MOBILE UI" />
             <DigitalThings title="APIs AND DIGITAL SERVICES" />
             <DigitalThings title="INTERACTIVE DEMOS" />
