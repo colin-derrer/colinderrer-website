@@ -16,8 +16,7 @@ export default function Home() {
         </p>
       </header>
       <p className="text-center text-muted-foreground text-xs mt-12">
-        I&apos;m currently rewriting this website. Please check back on
-        4/26/2024.
+        I&apos;m currently rewriting this website. Please check back later
       </p>
     </main>
   );

@@ -20,7 +20,7 @@ const local = localFont({
 
 export const metadata: Metadata = {
   title: "Colin Derrer",
-  description: "Colin Derrer's personal website",
+  description: "Software engineer and web developer.",
 };
 
 export default function RootLayout({
