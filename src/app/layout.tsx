@@ -41,7 +41,6 @@ export default function RootLayout({
               <Link href="https://www.linkedin.com/in/colin-derrer/">
                 LinkedIn
               </Link>
-              <Link href="/Colin Derrer SSE.pdf">Resume</Link>
             </div>
           </div>
         </nav>
